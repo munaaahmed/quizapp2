@@ -1,36 +1,35 @@
-// list of all questions, choices, and answers
+
 var questions = [
     {
-      title: "Commonly used data types DO NOT include:",
-      choices: ["strings", "booleans", "alerts", "numbers"],
-      answer: "alerts"
+      title: "Inside which HTML element do we put the JavaScript?:",
+      choices: ["<script>", "<js>", "<scripting>", "<javascript>"],
+      answer: "<script>"
     },
     {
-      title: "The condition in an if / else statement is enclosed within ____.",
-      choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-      answer: "parentheses"
+      title: "JavaScript entities start with _______ and end with _________.",
+      choices: ["Semicolon, colon", "Semicolon, ampersand", "Ampersand, colon", "Ampersand, semicolon"],
+      answer: "Ampersand, semicolon"
     },
     {
-      title: "Arrays in JavaScript can be used to store ____.",
+      title: "What are variables used for in JavaScript Programs?",
       choices: [
-        "numbers and strings",
-        "other arrays",
-        "booleans",
-        "all of the above"
+        "Storing numbers, dates, or other values",
+        "Varying random",
+        "Causing high-school algebra flashbacks",
       ],
-      answer: "all of the above"
+      answer: "Storing numbers, dates, or other values"
     },
     {
       title:
-        "String values must be enclosed within ____ when being assigned to variables.",
-      choices: ["commas", "curly brackets", "quotes", "parentheses"],
-      answer: "quotes"
+        "JavaScript is interpreted by _________?",
+      choices: ["Client", "Server", "Object",],
+      answer: "Client"
     },
     {
       title:
-        "A very useful tool used during development and debugging for printing content to the debugger is:",
-      choices: ["JavaScript", "terminal / bash", "for loops", "console.log"],
-      answer: "console.log"
+        "Choose the client-side JavaScript object?:",
+      choices: ["Database", "Cursor", "Client", "FileUpLoad"],
+      answer: "FileUpLoad"
     }
   ];
   
